@@ -101,11 +101,23 @@ ul{
     list-style: none;
 }
 
-.head-social li{
+/* .head-social li{
     background-color: var(--second-color);
     width: 1.75rem;
     height: 1.75rem;
     border-radius: 50%;
+} */
+
+.hero-icon{
+    background-color: var(--second-color);
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    margin: 0 10px;    
+}
+
+.hero-icon span i{
+    margin: .6rem 0;
 }
 
 .about-content p{
@@ -292,6 +304,7 @@ ul{
 .card{
     width: 20rem;
     border-radius: 8px;
+    margin: 0 auto;
 }
 
 .card-body{
@@ -345,4 +358,13 @@ footer{
     color: var(--grey-color);
 }
 
+.my-btn3{
+    border: 2px solid black;
+    transition: all 0.5s ease-in-out;
+}
+
+.my-btn3:hover{
+    background-color: var(--main-color);
+    color: var(--black-color);
+}
 
